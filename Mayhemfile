@@ -1,0 +1,6 @@
+project: print_stmt
+target: print_fuzzer
+
+cmds:
+    - cmd: ./print-fuzzer
+      libfuzzer: true
